@@ -1,5 +1,6 @@
 # Two Pointer
-## Ques 1 : problem link https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+### Ques 1 : problem link 
+https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
 class Solution {
    public int[] twoSum(int[] numbers, int target) {
@@ -23,19 +24,20 @@ class Solution {
 }
 
 
-# Ques 2: Given an array arr consisting of only 0's and 1's in random order. Modify the array in-place to segregate 0s onto the left side and 1s onto the right side of the array. https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1?page=1&status=solved&sortBy=submissions
+### Ques 2: Given an array arr consisting of only 0's and 1's in random order. Modify the array in-place to segregate 0s onto the left side and 1s onto the right side of the array. 
+https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1?page=1&status=solved&sortBy=submissions
 
 
 public class Solution {
    void segregate0and1(int[] arr) {
        // code here
-       int i = 0;
-       int j = arr.length-1;
-       while(i<=j) {
-           if(arr[i] == 0){
-               i++;
+       int i = 0;  
+       int j = arr.length-1;  
+       while(i<=j) {  
+           if(arr[i] == 0){  
+               i++;  
            }
-           else if(arr[j]==1){
+           else if(arr[j]==1){  
                j--;
            }
            else {
@@ -50,9 +52,9 @@ public class Solution {
  }
 # Triplet family.
 
-  ## Ques 3:Given an array arr of integers. First sort the array then find whether three numbers are such that the sum of two elements equals the third element.
+  ### Ques 3:Given an array arr of integers. First sort the array then find whether three numbers are such that the sum of two elements equals the third element.
    
-   //code
+   // code
    public class Solution {
     public boolean findTriplet(int[] arr) {
         int n = arr.length;
