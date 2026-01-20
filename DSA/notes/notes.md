@@ -23,6 +23,65 @@ After creating an array, its size is fixed; we can not change it.
 4. Array Length: int n = arr.length;
 5. Accessing and Updating All array element : 
 6. For More (https://www.geeksforgeeks.org/java/arrays-in-java/)
+7. Passing Arrays to method:
+     public class Geeks {
+    // Driver method
+    public static void main(String args[])
+    {
+        int arr[] = { 3, 1, 2, 5, 4 };
+
+        // passing array to method m1
+        sum(arr);
+    }
+
+    public static void sum(int[] arr)
+    {
+        // getting sum of array values
+        int sum = 0;
+
+        for (int i = 0; i < arr.length; i++)
+            sum += arr[i];
+
+        System.out.println("sum of array values : " + sum);
+    }
+}
+8. Arrays of Objects in Java : An array of objects is created like an array of primitive-type data items
+
+Example: Here we are taking a student class and creating an array of Student with five Student objects stored in the array. The Student objects have to be instantiated using the constructor of the Student class and their references should be assigned to the array elements.
+class Student {
+    public int roll_no;
+    public String name;
+  
+    Student(int roll_no, String name){
+        this.roll_no = roll_no;
+        this.name = name;
+    }
+}
+
+public class Geeks {
+    public static void main(String[] args){
+      
+        // declares an Array of Student
+        Student[] arr;
+
+        // allocating memory for 5 objects of type Student.
+        arr = new Student[5];
+
+        // initialize the elements of the array
+        arr[0] = new Student(1, "aman");
+        arr[1] = new Student(2, "vaibhav");
+        arr[2] = new Student(3, "shikar");
+        arr[3] = new Student(4, "dharmesh");
+        arr[4] = new Student(5, "mohit");
+
+        // accessing the elements of the specified array
+        for (int i = 0; i < arr.length; i++)
+            System.out.println("Element at " + i + " : { "
+                               + arr[i].roll_no + " "
+                               + arr[i].name+" }");
+    }
+}
+
 
 ## Advantages of Java Arrays
 1. Efficient Access: Accessing an element by its index is fast and has constant time complexity, O(1).
