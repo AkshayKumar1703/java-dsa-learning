@@ -82,7 +82,6 @@ public class Geeks {
     }
 }
 
-
 ## Advantages of Java Arrays
 1. Efficient Access: Accessing an element by its index is fast and has constant time complexity, O(1).
 2. Memory Management: Arrays have fixed size, which makes memory management straightforward and predictable.
@@ -92,3 +91,31 @@ public class Geeks {
 1. Fixed Size: Once an array is created, its size cannot be changed, which can lead to memory waste if the size is overestimated or insufficient storage if underestimated.
 2. Type Homogeneity: Arrays can only store elements of the same data type, which may require additional handling for mixed types of data.
 3. Insertion and Deletion: Inserting or deleting elements, especially in the middle of an array, can be costly as it may require shifting elements.
+
+# ArrayList in Java
+ An ArrayList in Java is a resizable (or dynamic) array from the java.util package that can grow or shrink automatically as elements are added or removed, unlike regular arrays with a fixed size.
+
+1. Indexed Access: Elements can be accessed using their index, just like arrays.
+2. Allows Duplicates: Duplicate elements are allowed.
+3. Maintains Insertion Order: Elements are stored in the order they are inserted.
+4. Not Synchronized: ArrayList is not thread-safe. To make it thread-safe, you must wrap it manually using.
+Example
+import java.util.ArrayList;
+
+class Main {
+    public static void main (String[] args) {
+        
+      	// Creating an ArrayList
+      	ArrayList<Integer> a = new ArrayList<Integer>();
+      	
+      	// Adding Element in ArrayList
+      	a.add(1);
+      	a.add(2);
+      	a.add(3);
+      
+      	// Printing ArrayList
+      	System.out.println(a);
+    }
+}
+
+
