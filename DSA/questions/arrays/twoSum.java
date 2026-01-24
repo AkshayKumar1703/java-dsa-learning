@@ -1,5 +1,5 @@
 package dsa.questions.arrays;
-
+import java.util.*;
 public class twoSum {
     public int[] TwoSum(int[] numbers, int target) {
         int n = numbers.length;
