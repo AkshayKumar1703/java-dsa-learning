@@ -19,7 +19,7 @@ public class twoSum {
         return null;
     }
     public static void main(String[] args) {
-        DSA.questions.arrays.twoSum t = new DSA.questions.arrays.twoSum();
+        twoSum t = new twoSum();
         int[] numbers = {2,1,7,11};
         int target = 3;
         int[] result = t.TwoSum(numbers, target);
