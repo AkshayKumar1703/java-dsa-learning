@@ -1,6 +1,6 @@
 package dsa.questions.arrays;
 
-import java.util.*;
+import java.util.Arrays;
 // solved this problem using two pointer
 public class TwoSum {
     public int[] twoSum(int[] numbers, int target) {
