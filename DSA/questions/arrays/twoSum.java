@@ -1,4 +1,4 @@
-package DSA.questions.arrays;
+package dsa.questions.arrays;
 
 import java.util.*;
 // solved this problem using two pointer
