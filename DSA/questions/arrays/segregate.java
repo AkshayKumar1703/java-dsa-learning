@@ -1,4 +1,4 @@
-package DSA.questions.arrays;
+package dsa.questions.arrays;
 
 
 /* Ques 2: Given an array arr consisting of only 0's and 1's in random order.
