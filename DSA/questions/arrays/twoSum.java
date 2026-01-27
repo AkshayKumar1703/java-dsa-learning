@@ -1,7 +1,5 @@
-
-// solved this problem using two pointer
 package dsa.questions.arrays;
-import java.util.Arrays;
+import java.util.*;
 public class TwoSum {
     public int[] twoSum(int[] numbers, int target) {
         int n = numbers.length;
@@ -18,11 +16,12 @@ public class TwoSum {
         }
         return null;
     }
+
     public static void main(String[] args) {
         TwoSum t = new TwoSum();
         int[] numbers = {2,1,7,11};
-        int target = 3;
-        int[] result = t.twoSum(numbers, target);
-        System.out.println(Arrays.toString(result));
+     int target = 9;
+     int[] result = t.twoSum(numbers, target);
+     System.out.println(Arrays.toString(result));
     }
 }
