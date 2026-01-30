@@ -1,7 +1,7 @@
 package dsa.questions.arrays;
 import java.util.*;
-public class twoSum {
-    public int[] TwoSum(int[] numbers, int target) {
+public class TwoSum {
+    public int[] twoSum(int[] numbers, int target) {
         int n = numbers.length;
         int i = 0;
         int j = n-1;
@@ -18,10 +18,10 @@ public class twoSum {
     }
 
     public static void main(String[] args) {
-        twoSum t = new twoSum();
+        TwoSum t = new TwoSum();
         int[] numbers = {2,1,7,11};
      int target = 9;
-     int[] result = t.TwoSum(numbers, target);
+     int[] result = t.twoSum(numbers, target);
      System.out.println(Arrays.toString(result));
     }
 }
