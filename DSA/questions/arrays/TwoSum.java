@@ -1,7 +1,7 @@
 package dsa.questions.arrays;
-import java.util.*;
-public class TwoSum {
-    public int[] twoSum(int[] numbers, int target) {
+import java.util.Arrays;
+private class TwoSum {
+    private int[] twoSum(int[] numbers, int target) {
         int n = numbers.length;
         int i = 0;
         int j = n-1;

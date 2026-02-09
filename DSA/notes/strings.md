@@ -38,6 +38,20 @@ String firstName = "Tony";
            System.out.println(fullName.charAt(i));
        }
 
+1. str.length();               // 11  
+2. str.charAt(0);              // 'H'  
+3. str.substring(0, 5);        // "Hello"  
+4 str.indexOf("World");        // 6  
+5. str.toLowerCase();          // "hello world"  
+6. str.toUpperCase();          // "HELLO WORLD"  
+7. str.trim();                 // Removes leading/trailing spaces  
+8. str.replace('l', 'x');      // "Hexxo Worxd"  
+9. str.contains("World");      // true  
+10. str.startsWith("Hello");    // true  
+11. str.endsWith("World");      // true  
+12. str.split(" ");             // ["Hello", "World"]  
+13. str.equals("Hello World"); // true (content comparison)  
+14. str == "Hello World";      // Reference comparison 
 
 
 
