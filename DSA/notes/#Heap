@@ -1,4 +1,4 @@
-#Heap
+##Heap
 
 Binary Heap can be visualized array as a complete binary tree
 Arr[0] element will be treated as root
